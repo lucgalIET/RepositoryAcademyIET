@@ -10,11 +10,12 @@ public class Connections {
     public Connections(int maxConnections) {
         this.maxConnections = maxConnections;
         semaphore = new Semaphore(maxConnections);
+//      semaphore = new Semaphore(n);
     }
 
     public void acquireConnection() {
         try {
-            semaphore.acquire();
+            semaphore.acquire(); //i thread cercano di ottenere il/i permesso/i
             connections++;
             System.out.println(Thread.currentThread().getName() + " ha ottenuto una connessione. Connessioni attive: " + connections);
             Thread.sleep(4000); // simula il tempo di esecuzione
