@@ -1,6 +1,6 @@
-package main.java.lezioni.collection.hashmap;
+package lezioni.collection.hashmap;
 
-import main.java.lezioni.distributore_10_05.Prodotto;
+import lezioni.distributore_10_05.Prodotto;
 
 import java.util.HashMap;
 

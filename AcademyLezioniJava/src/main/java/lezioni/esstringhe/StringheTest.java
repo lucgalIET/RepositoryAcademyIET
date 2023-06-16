@@ -1,4 +1,4 @@
-package main.java.lezioni.esstringhe;
+package lezioni.esstringhe;
 
 import java.io.BufferedReader;
 import java.io.IOException;

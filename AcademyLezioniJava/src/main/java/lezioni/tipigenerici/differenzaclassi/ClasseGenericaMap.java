@@ -1,4 +1,4 @@
-package main.java.lezioni.tipigenerici.differenzaclassi;
+package lezioni.tipigenerici.differenzaclassi;
 
 import java.util.HashMap;
 import java.util.List;

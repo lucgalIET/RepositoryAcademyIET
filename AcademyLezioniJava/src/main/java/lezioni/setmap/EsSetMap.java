@@ -1,4 +1,4 @@
-package main.java.lezioni.setmap;
+package lezioni.setmap;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

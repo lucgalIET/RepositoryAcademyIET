@@ -1,4 +1,4 @@
-package main.java.lezioni.arraytest;
+package lezioni.arraytest;
 
 import java.util.Arrays;
 

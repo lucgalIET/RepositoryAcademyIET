@@ -1,4 +1,4 @@
-package main.java.lezioni.tipigenerici;
+package lezioni.tipigenerici;
 
 
 // Scrivi una classe Contatore<T> che tiene traccia di un conteggio di oggetti di tipo T.

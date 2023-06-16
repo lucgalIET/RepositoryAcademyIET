@@ -1,6 +1,4 @@
-package main.java.lezioni.distributore_10_05;
-
-import main.java.lezioni.oopesercizi.esercizioDistributori.ProdottoAbstract;
+package lezioni.distributore_10_05;
 
 public class Cioccolato extends ProdottoAbstract {
 

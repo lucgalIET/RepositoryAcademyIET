@@ -1,4 +1,4 @@
-package main.java.lezioni.tipigenerici;
+package lezioni.tipigenerici;
 
 // Possiamo applicare vincoli sui tipi generici per limitare i tipi che possono essere utilizzati.
 // Ad esempio, ClasseGenericaVincolata<T extends Number> indica che il tipo T deve essere un sottotipo di Number.

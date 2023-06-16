@@ -1,4 +1,4 @@
-package main.java.lezioni.esstringhe;
+package lezioni.esstringhe;
 
 import java.io.IOException;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package main.java.lezioni.complessita;
+package lezioni.complessita;
 
 //Lista Ricorsiva --
 

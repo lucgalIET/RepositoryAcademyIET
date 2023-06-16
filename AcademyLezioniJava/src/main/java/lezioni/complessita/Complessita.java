@@ -1,4 +1,4 @@
-package main.java.lezioni.complessita;
+package lezioni.complessita;
 
 import java.util.Arrays;
 

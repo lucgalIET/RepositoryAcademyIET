@@ -1,4 +1,4 @@
-package main.java.lezioni.tipigenerici;
+package lezioni.tipigenerici;
 
 public class MainContatore {
 

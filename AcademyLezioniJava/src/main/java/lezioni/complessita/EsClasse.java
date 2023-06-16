@@ -1,4 +1,4 @@
-package main.java.lezioni.complessita;
+package lezioni.complessita;
 
 public class EsClasse {
     public static void main(String[] args) {

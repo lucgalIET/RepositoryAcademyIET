@@ -1,6 +1,6 @@
-package main.java.lezioni.tipigenerici.differenzaclassi;
+package lezioni.tipigenerici.differenzaclassi;
 
-import main.java.lezioni.tipigenerici.Contenitore;
+import lezioni.tipigenerici.Contenitore;
 
 public class Generics {
 

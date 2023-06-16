@@ -29,3 +29,7 @@ alumni/
 oopesercizi/
 .idea
 out/
+.gitignore
+zvarie/
+flussiefile/
+/complessita/

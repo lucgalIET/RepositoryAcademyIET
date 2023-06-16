@@ -1,4 +1,4 @@
-package main.java.lezioni.collection.list;
+package lezioni.collection.list;
 
 public class List {
 }

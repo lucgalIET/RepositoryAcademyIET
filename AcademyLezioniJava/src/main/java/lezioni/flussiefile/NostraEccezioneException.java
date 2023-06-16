@@ -1,4 +1,4 @@
-package main.java.lezioni.flussiefile;
+package lezioni.flussiefile;
 
 public class NostraEccezioneException extends Throwable {
 

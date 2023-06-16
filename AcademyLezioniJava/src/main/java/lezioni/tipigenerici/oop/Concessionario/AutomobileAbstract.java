@@ -1,4 +1,4 @@
-package main.java.lezioni.tipigenerici.oop.Concessionario;
+package lezioni.tipigenerici.oop.Concessionario;
 
 public abstract class AutomobileAbstract implements AutomobileInterface {
     private String marca;

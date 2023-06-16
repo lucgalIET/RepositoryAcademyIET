@@ -1,4 +1,4 @@
-package main.java.lezioni.flussiefile;
+package lezioni.flussiefile;
 
 import java.io.*;
 //I flussi in Java possono essere di due tipi: flussi di byte (byte streams) e flussi di caratteri (character streams)

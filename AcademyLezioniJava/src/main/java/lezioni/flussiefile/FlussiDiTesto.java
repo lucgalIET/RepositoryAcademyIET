@@ -1,4 +1,4 @@
-package main.java.lezioni.flussiefile;
+package lezioni.flussiefile;
 
 import java.io.*;
 

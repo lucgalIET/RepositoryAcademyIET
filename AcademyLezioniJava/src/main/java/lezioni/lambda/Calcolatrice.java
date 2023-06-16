@@ -1,4 +1,4 @@
-package main.java.lezioni.lambda;
+package lezioni.lambda;
 
 public class Calcolatrice {
 

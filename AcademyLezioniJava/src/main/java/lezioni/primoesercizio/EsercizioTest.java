@@ -1,4 +1,4 @@
-package main.java.lezioni.primoesercizio;
+package lezioni.primoesercizio;
 
 import java.util.Scanner;
 

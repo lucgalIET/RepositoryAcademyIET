@@ -1,20 +1,17 @@
-package main.java.lezioni.distributore_10_05;
-
-import main.java.lezioni.oopesercizi.esercizioDistributori.DistributoreDiBevande;
-import main.java.lezioni.oopesercizi.esercizioDistributori.ProdottoAbstract;
+package lezioni.distributore_10_05;
 
 public class Caffe extends ProdottoAbstract {
 
-    private double prezzoCaffe;
+    private static double prezzoCaffe;
 
     DistributoreDiBevande distributoreDiBevande = new DistributoreDiBevande();
 
     public Caffe(){}
 
     public Caffe(String nomeProdotto, String codiceProdotto, int quantitaProdotto){
-        super(nomeProdotto, codiceProdotto, quantitaProdotto);
+        super(nomeProdotto, prezzoCaffe, codiceProdotto, quantitaProdotto);
         this.prezzoCaffe=getPrezzoCaffe();
-        this.distributoreDiBevande.setnTotaleProdotti(quantitaProdotto++);
+//        this.distributoreDiBevande.setnTotaleProdotti(quantitaProdotto++);
     }
 
     public double getPrezzoCaffe() {

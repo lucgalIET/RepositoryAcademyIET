@@ -1,4 +1,4 @@
-package main.java.lezioni.conditionalstatement;
+package lezioni.conditionalstatement;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package main.java.lezioni.test05_05_23;
+package lezioni.test05_05_23;
 
 import java.util.StringTokenizer;
 

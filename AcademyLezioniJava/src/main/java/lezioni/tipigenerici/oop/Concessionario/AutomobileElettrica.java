@@ -1,4 +1,4 @@
-package main.java.lezioni.tipigenerici.oop.Concessionario;
+package lezioni.tipigenerici.oop.Concessionario;
 
 import java.util.Random;
 

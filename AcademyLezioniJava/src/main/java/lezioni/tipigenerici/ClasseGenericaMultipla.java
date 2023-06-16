@@ -1,4 +1,4 @@
-package main.java.lezioni.tipigenerici;
+package lezioni.tipigenerici;
 
 //esempio di una classe generica ClasseGenericaMultipla<T, U>.
 // La classe contiene due campi di tipo T e U.

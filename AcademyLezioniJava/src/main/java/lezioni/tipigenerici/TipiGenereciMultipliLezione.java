@@ -1,4 +1,4 @@
-package main.java.lezioni.tipigenerici;
+package lezioni.tipigenerici;
 
 // Creiamo un'istanza di ClasseGenericaMultipla specificando i tipi di parametro desiderati, ad esempio Integer e String.
 // Passiamo i valori corrispondenti ai tipi di parametro nel costruttore.

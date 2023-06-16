@@ -1,4 +1,4 @@
-package main.java.lezioni.regex;
+package lezioni.regex;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

@@ -1,4 +1,4 @@
-package main.java.lezioni.collection;
+package lezioni.collection;
 
 import java.util.*;
 

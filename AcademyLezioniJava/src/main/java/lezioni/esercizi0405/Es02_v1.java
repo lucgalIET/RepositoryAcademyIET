@@ -1,4 +1,4 @@
-package main.java.lezioni.esercizi0405;
+package lezioni.esercizi0405;
 
 import java.util.Scanner;
 

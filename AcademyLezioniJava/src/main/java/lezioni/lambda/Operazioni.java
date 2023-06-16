@@ -1,4 +1,4 @@
-package main.java.lezioni.lambda;
+package lezioni.lambda;
 
 @FunctionalInterface
 public interface Operazioni {

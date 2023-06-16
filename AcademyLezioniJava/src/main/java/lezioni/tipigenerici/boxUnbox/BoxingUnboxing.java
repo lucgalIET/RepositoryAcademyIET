@@ -1,4 +1,4 @@
-package main.java.lezioni.tipigenerici.boxUnbox;
+package lezioni.tipigenerici.boxUnbox;
 
 public class BoxingUnboxing {
 

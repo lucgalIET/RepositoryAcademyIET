@@ -1,4 +1,4 @@
-package main.java.lezioni.collection.set;
+package lezioni.collection.set;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package main.java.lezioni.tipigenerici.differenzaclassi;
+package lezioni.tipigenerici.differenzaclassi;
 
 public class Automobile {
 

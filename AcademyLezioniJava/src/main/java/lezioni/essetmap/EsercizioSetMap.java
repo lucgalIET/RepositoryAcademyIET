@@ -1,4 +1,4 @@
-package main.java.lezioni.essetmap;
+package lezioni.essetmap;
 
 import java.util.*;
 

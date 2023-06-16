@@ -1,4 +1,4 @@
-package main.java.lezioni.distributore_10_05;
+package lezioni.distributore_10_05;
 
 public interface DistributoriDiBevandeInterface {
      int caricaProdotti(int n);

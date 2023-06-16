@@ -1,4 +1,4 @@
-package main.java.lezioni.cicli;
+package lezioni.cicli;
 
 public class Cicli {
 
