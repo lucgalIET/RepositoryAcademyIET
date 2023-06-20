@@ -1,4 +1,4 @@
-package main.java.lezioni;
+package lezioni;
 
 public class Prj2MainClass {
     public static void main(String[] args) {
