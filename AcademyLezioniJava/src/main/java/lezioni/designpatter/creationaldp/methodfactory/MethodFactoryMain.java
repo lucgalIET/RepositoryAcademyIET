@@ -1,4 +1,4 @@
-package lezioni.designpatter.creationaldp.methodfactory;
+package main.java.lezioni.designpatter.creationaldp.methodfactory;
 
 //Client code
 public class MethodFactoryMain {

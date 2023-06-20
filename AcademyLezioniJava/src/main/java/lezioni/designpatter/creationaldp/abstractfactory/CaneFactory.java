@@ -1,4 +1,4 @@
-package lezioni.designpatter.creationaldp.abstractfactory;
+package main.java.lezioni.designpatter.creationaldp.abstractfactory;
 
 // Factory concreta
 public class CaneFactory implements AnimaliFactory {

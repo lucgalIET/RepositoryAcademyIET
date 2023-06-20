@@ -1,4 +1,4 @@
-package lezioni.designpatter.creationaldp.methodfactory;
+package main.java.lezioni.designpatter.creationaldp.methodfactory;
 
 //creator astratto
 public abstract class AnimaleCreator {

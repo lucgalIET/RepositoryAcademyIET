@@ -1,4 +1,4 @@
-package lezioni;
+package main.java.lezioni;
 
 public class HelloWorld {
 

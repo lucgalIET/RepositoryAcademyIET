@@ -1,4 +1,4 @@
-package lezioni.designpatter.creationaldp.abstractfactory;
+package main.java.lezioni.designpatter.creationaldp.abstractfactory;
 
 //Abstract Factory
 public interface AnimaliFactory {

@@ -1,4 +1,4 @@
-package lezioni;
+package main.java.lezioni;
 
 
 import java.util.StringTokenizer;

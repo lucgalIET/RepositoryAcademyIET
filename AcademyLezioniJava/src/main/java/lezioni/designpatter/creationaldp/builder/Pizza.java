@@ -1,4 +1,4 @@
-package lezioni.designpatter.creationaldp.builder;
+package main.java.lezioni.designpatter.creationaldp.builder;
 
 //classe concreta
 public class Pizza {
