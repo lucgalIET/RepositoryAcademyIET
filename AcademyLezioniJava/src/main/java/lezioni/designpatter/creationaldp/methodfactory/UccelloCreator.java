@@ -1,4 +1,4 @@
-package main.java.lezioni.designpatter.creationaldp.methodfactory;
+package lezioni.designpatter.creationaldp.methodfactory;
 
 //creator concreto
 public class UccelloCreator extends AnimaleCreator {

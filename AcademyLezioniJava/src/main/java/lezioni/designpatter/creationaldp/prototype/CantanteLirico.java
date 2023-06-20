@@ -1,5 +1,6 @@
-package main.java.lezioni.designpatter.creationaldp.prototype;
+package lezioni.designpatter.creationaldp.prototype;
 
+//prototipo concreto
 public class CantanteLirico implements Cantante {
 
     private String nome;

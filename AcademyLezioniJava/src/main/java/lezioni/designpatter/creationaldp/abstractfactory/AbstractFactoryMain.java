@@ -1,4 +1,4 @@
-package main.java.lezioni.designpatter.creationaldp.abstractfactory;
+package lezioni.designpatter.creationaldp.abstractfactory;
 
 //client code
 public class AbstractFactoryMain {

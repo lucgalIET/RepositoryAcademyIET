@@ -1,4 +1,4 @@
-package main.java.lezioni.designpatter.structuraldp.composite;
+package lezioni.designpatter.structuraldp.composite;
 
 //component
 public interface Grafica {

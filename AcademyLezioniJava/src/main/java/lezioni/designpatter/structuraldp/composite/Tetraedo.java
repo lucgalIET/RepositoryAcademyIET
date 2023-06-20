@@ -1,4 +1,4 @@
-package main.java.lezioni.designpatter.structuraldp.composite;
+package lezioni.designpatter.structuraldp.composite;
 
 //leaf
 public class Tetraedo implements Grafica {

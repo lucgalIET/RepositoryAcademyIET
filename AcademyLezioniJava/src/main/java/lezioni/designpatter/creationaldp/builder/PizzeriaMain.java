@@ -1,4 +1,4 @@
-package main.java.lezioni.designpatter.creationaldp.builder;
+package lezioni.designpatter.creationaldp.builder;
 
 // Client code
 public class PizzeriaMain {

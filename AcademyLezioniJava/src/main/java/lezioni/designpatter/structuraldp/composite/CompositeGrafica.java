@@ -1,8 +1,9 @@
-package main.java.lezioni.designpatter.structuraldp.composite;
+package lezioni.designpatter.structuraldp.composite;
 
 import java.util.ArrayList;
 import java.util.List;
 
+// Composite
 public class CompositeGrafica implements Grafica {
 
     private List<Grafica> listaGrafica = new ArrayList<>();

@@ -1,5 +1,6 @@
-package main.java.lezioni.designpatter.structuraldp.composite;
+package lezioni.designpatter.structuraldp.composite;
 
+// Client code
 public class CompositeMain {
     public static void main(String[] args) {
         Cerchio cerchio = new Cerchio();

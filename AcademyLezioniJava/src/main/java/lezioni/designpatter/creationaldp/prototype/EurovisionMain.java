@@ -1,4 +1,4 @@
-package main.java.lezioni.designpatter.creationaldp.prototype;
+package lezioni.designpatter.creationaldp.prototype;
 
 public class EurovisionMain {
     public static void main(String[] args) {

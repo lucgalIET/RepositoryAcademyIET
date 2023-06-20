@@ -1,4 +1,4 @@
-package main.java.lezioni.designpatter.creationaldp.methodfactory;
+package lezioni.designpatter.creationaldp.methodfactory;
 
 //metodo/i concreto/i
 public class Uccello implements Animale {

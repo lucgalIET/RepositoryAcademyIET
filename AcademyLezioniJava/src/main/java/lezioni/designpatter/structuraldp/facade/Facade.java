@@ -1,5 +1,6 @@
-package main.java.lezioni.designpatter.structuraldp.facade;
+package lezioni.designpatter.structuraldp.facade;
 
+// Facade
 public class Facade {
     private SubsystemA subsystemA = new SubsystemA();
     private SubsystemB subsystemB = new SubsystemB();

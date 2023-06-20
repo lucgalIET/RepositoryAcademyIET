@@ -1,4 +1,4 @@
-package main.java.lezioni.designpatter.creationaldp.singleton;
+package lezioni.designpatter.creationaldp.singleton;
 
 public class Singleton {
 

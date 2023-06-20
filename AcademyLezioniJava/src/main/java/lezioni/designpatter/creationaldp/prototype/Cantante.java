@@ -1,4 +1,4 @@
-package main.java.lezioni.designpatter.creationaldp.prototype;
+package lezioni.designpatter.creationaldp.prototype;
 
 //prototipo astratto
 public interface Cantante extends Cloneable {

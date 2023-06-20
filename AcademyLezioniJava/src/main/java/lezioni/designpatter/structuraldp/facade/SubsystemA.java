@@ -1,4 +1,4 @@
-package main.java.lezioni.designpatter.structuraldp.facade;
+package lezioni.designpatter.structuraldp.facade;
 
 public class SubsystemA {
     public void logicaA(){

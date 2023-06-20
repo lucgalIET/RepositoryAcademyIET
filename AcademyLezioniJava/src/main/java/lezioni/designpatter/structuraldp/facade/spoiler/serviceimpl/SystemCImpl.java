@@ -1,6 +1,7 @@
-package main.java.lezioni.designpatter.structuraldp.facade.spoiler.serviceimpl;
+package lezioni.designpatter.structuraldp.facade.spoiler.serviceimpl;
 
-import main.java.lezioni.designpatter.structuraldp.facade.spoiler.service.SystemC;
+
+import lezioni.designpatter.structuraldp.facade.spoiler.service.SystemC;
 
 public class SystemCImpl implements SystemC {
     @Override
