@@ -1,0 +1,26 @@
+body {
+    background: rgb(199, 223, 199);
+}
+
+h2,h3 {
+    text-align: center;
+    font-style: italic;
+}
+
+.intro {
+    background-color: aqua;
+}
+
+.intro2 {
+font-size: 5rem;
+color: blueviolet;
+}
+
+.titolo {
+    display: flex;
+    justify-content: center;
+
+}
+/* .classe rappresenta la classe*/
+
+/* #nomeId rappresenta l'id*/ 
