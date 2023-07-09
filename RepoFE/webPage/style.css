@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family:'Libre Franklin', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: lightblue;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.logo {
+    width:10rem;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin-left: 2px;
+    padding: 35px;
+}
+
+.menu li {
+    margin-left: 2rem;
+} 
+
+
+#hero {
+    padding:2rem;
+}
+
+.testoBox {
+    background-color: rgb(204, 202, 200);
+    border-left: 15px solid rgb(214, 214, 25);
+    padding:1rem;
+
+}
+
+#imgL {
+padding: 1rem;
+}
+
+#imgL img {
+    width: 500px;
+    
+}
+.testoL {
+    margin-top: 10%;
+    margin: auto;
+    text-align: left;
+}
+
+#imgR{
+    padding: 1rem;
+}
+
+#imgR img {
+    width:500px;
+    
+}
+
+.testoR {
+    margin-top: 10%;
+    margin: auto;
+    text-align: right;
+ }
+
+.descrizione {
+    display: flex;
+    margin-top: 10%;
+    padding: auto;
+    
+}
+
+footer {
+    background-color: rgb(28, 28, 63);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    color: aliceblue;
+    align-items: center;
+
+}
+
+#imgLoghi img {
+    width: 1rem;
+    height: auto;
+}
