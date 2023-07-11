@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="script3.js"></script> -->
+    <title>New Prj</title>
+  </head>
+  <body>
+    <h1>HTML, CSS e JS</h1>
+
+    <form id="myForm">
+      <label for="nameInput">Name:</label>
+      <input type="text" id="nameInput" />
+
+      <label for="surnameInput">Surname:</label>
+      <input type="text" id="surnameInput" />
+
+      <button type="buttonSubmit">Send Form</button>
+    </form>
+
+    <div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <button id="buttonHello">Hello</button>
+      <br />
+      <br />
+      <br />
+      <br />
+      <button id="buttonTest" style="width: 500px; height: 500px;">Seguimi</button>
+    </div>
+    <script>
+
+      const SEGUIMI = document.getElementById("buttonTest");
+      SEGUIMI.addEventListener("mousemove", function(event){
+        // console.log("Il muose e' sul button test!");
+        console.log("", event.clientX, event.clientY);
+      });
+      // function saluta(nome, cognome) {
+      // }
+
+      //definiamo un oggetto person
+      let person = {
+        name: "",
+        surname: "",
+        hello: function () {
+          alert("Hello, I'm " + this.name + " " + this.surname);
+        },
+      };
+
+      function manageHello() {
+        let nameInput = document.getElementById("nameInput").value;
+        let surnameInput = document.getElementById("surnameInput").value;
+
+        //aggiornato i valore degli attributi dell'oggetto person
+        person.name = nameInput;
+        person.surname = surnameInput;
+
+        console.log(person);
+        person.hello();
+      }
+
+      function manageForm(event) {
+        //previene l'invio automatico del form
+        event.preventDefault();
+
+        let nameInput = document.getElementById("nameInput").value;
+        let surnameInput = document.getElementById("surnameInput").value;
+
+        //simula l'invio del form
+        console.log("Name" + " " + nameInput);
+        console.log("Surname" + " " + surnameInput);
+
+        // document.getElementById("myForm").reset();
+      }
+
+      let form = document.getElementById("myForm");
+      form.addEventListener("click", manageForm);
+
+      //aggiungere l'evento click sul buttonHello
+      let buttonHello = document.getElementById("buttonHello");
+      buttonHello.addEventListener("click", manageHello);
+
+
+      
+
+
+    </script>
+  </body>
+</html>
