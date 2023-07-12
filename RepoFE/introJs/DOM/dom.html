@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dom.css" />
+    <title>DOM example</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section" id="section1">
+        <h2 class="h2Title">Section 1</h2>
+        <div>
+            <p id="myElement">Old Content</p>
+            <p id="myNewElement">New Content</p>
+        </div>
+
+        <button onclick="changeElement()">Change Element</button>
+        <button onclick="newElement()">New Element</button>
+        <button onclick="removeElement()">Remove Element</button>
+      </div>
+      <div class="section" id="section2">
+        <h2 class="h2Title">Section 2</h2>
+      </div>
+      <div class="section" id="section3">
+        <h2 class="h2Title">Section 3</h2>
+      </div>
+    </div>
+
+    <script src="dom.js"></script>
+  </body>
+</html>

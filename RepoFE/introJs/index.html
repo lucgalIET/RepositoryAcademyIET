@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pagina con JavaScript</title>
+</head>
+<body>
+  <h1>Utilizzo di Funzioni, Oggetti, Eventi e Form in JavaScript</h1>
+
+  <form id="myForm">
+    <label for="nameInput">Nome:</label>
+    <input type="text" id="nameInput" required>
+
+    <label for="surnameInput">Cognome:</label>
+    <input type="text" id="surnameInput" required>
+
+    <button type="submit">Invia</button>
+    <button type="clear">Invia</button>
+  </form>
+
+  <button id="btnSaluta">Saluta</button>
+
+  <script>
+    // Definizione di un oggetto
+    let persona = {
+      nome: "",
+      cognome: "",
+      saluta: function() {
+        alert("Ciao, sono " + this.nome + " " + this.cognome);
+      }
+    };
+
+    // Funzione di gestione dell'evento click per il pulsante "Saluta"
+    function handleSaluta() {
+      // Ottieni i valori inseriti nel form
+      let name = document.getElementById("nameInput").value;
+      let surname = document.getElementById("surnameInput").value;
+
+      // Aggiorna le proprietà dell'oggetto "persona"
+      persona.nome = name;
+      persona.cognome = surname;
+
+      // Chiamata alla funzione "saluta" dell'oggetto "persona"
+      persona.saluta();
+    }
+
+    // Funzione di gestione dell'invio del form
+    function handleSubmit(event) {
+      event.preventDefault(); // Evita l'invio del form
+
+      // Ottieni i valori inseriti nel form
+      let name = document.getElementById("nameInput").value;
+      let surname = document.getElementById("surnameInput").value;
+
+      // Stampa i valori in console
+      console.log("Nome:", name);
+      console.log("Cognome:", surname);
+
+      // Pulisci il form
+      document.getElementById("myForm").reset();
+    }
+
+    // Aggiunta dell'evento di submit al form
+    let form = document.getElementById("myForm");
+    form.addEventListener("submit", handleSubmit);
+
+    // Aggiunta dell'evento click al pulsante "Saluta"
+    let btnSaluta = document.getElementById("btnSaluta");
+    btnSaluta.addEventListener("click", handleSaluta);
+  </script>
+</body>
+</html>

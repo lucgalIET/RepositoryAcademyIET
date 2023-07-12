@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Validiamo un password</h1>
+    
+
+    <script>
+
+        function validatePassword(password) {
+            if(password !== null) {
+                debugger;
+                const LUNGHEZZA_MINIMA = 7;
+                const CONTIENE_MAIUSC = /[A-Z]/.test(password);
+                const CONTIENE_NUM = /\d/.test(password);
+
+                //if con AND
+                if(password.length < LUNGHEZZA_MINIMA) {
+                    reload();
+                    return "La password deve contenere minimo 7 caratteri";
+                } else if(!CONTIENE_MAIUSC) {
+                    reload();
+                    return "La password deve contenere almeno un carattere MAIUSC";
+                    
+                } else if(!CONTIENE_NUM) {
+                    reload();
+                    return "La password deve contenere almeno un numero";
+                    
+                } else {
+                    return "La password e' valida";
+                    
+                }
+            }
+            reload();
+            return 'Attenzione, inserire una password!';
+        }
+
+        let input = prompt("Inserire la password: ");
+        alert(validatePassword(input));
+
+        function reload() {
+            location.reload(), 2000;
+        }
+
+        // setTimeout()
+    </script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let numbers = [1,2,3,4,5];
+        //push() aggiunge un elemento alla fine dell'array
+
+        console.log('___________________________________');
+        numbers.push(10); //[1,2,3,4,5,10] // push aggiunge alla fine
+        console.log(numbers);
+        
+        numbers.unshift(77);//[77,1,2,3,4,5,10] // unshift aggiunge in testa
+        console.log(numbers);
+        console.log('___________________________________');
+
+        console.log('___________________________________');
+        // numbers.pop();
+        //pop() //rimuove l'ultimo elemento dell'array e lo ritorna
+        console.log(numbers.pop());
+        console.log(numbers);
+        
+        console.log('___________________________________');
+        let primo = numbers[0];
+        // numbers[4] = '7';
+        numbers[4] = '7';
+        console.log(numbers);
+        console.log('___________________________________');
+        
+        let stringhe = ['ciccio', 'gino', 'mario'];
+        stringhe.push('peppe');
+        console.log(stringhe.pop());
+        stringhe.pop();
+        stringhe[0] = 'gio'; 
+        console.log(stringhe);
+        
+        stringhe.push('fra');
+        console.log(stringhe);
+
+        
+                // 1 = indice
+                // 2 = n elementi
+        stringhe.splice(1,2); //Rimuove 2 elementi a partire dall'indice 1
+        console.log(stringhe);
+        
+        let stringhe2 = ['ciccio', 'gino', 'mario', 'pep', 'tess', 'almo', 'giuli', 'ermes'];
+        console.log(stringhe2);
+                // 2 = indice
+                // 2 = n elementi
+        stringhe2.splice(2,2); //Rimuove 2 elementi a partire dall'indice 2
+        console.log(stringhe2);
+        console.log('___________________________________');
+        
+        let stringhe3 = ['ciccio', 'gino', 'mario', 'pep', 'tess', 'almo', 'giuli', 'ermes'];
+                // 0 = indice
+                // 1 = n elementi
+                //'pino' = elemento da aggiungere/sostituire
+        stringhe3.splice(0,1,'pino');
+        // stringhe3.splice(3,1,'pino');
+        //stringhe3.splice(0,stringhe3.length,'pino', 'erne');
+        console.log(stringhe3);
+        console.log('___________________________________');
+        
+        let nameSlice = stringhe3.slice(0,3); //restituisce un nuovo array, da un sottoarray di stringhe3
+        console.log(nameSlice);
+        console.log('___________________________________');
+        
+        let allNameSlice = stringhe3.slice(); //[senza indici] restituisce un nuovo array uguale a quello di partenza
+        console.log(allNameSlice);
+        
+        let nameSlice2 = stringhe3.slice(3,5);
+        console.log(nameSlice2);
+        console.log('___________________________________');
+        
+        //concat()
+        let result = nameSlice.concat(nameSlice2); //restituisce un nuovo array come risulto della concat di nameSlice e nameSlice2
+        console.log(result);
+        
+        //sort()
+        stringhe3.sort();
+        console.log(stringhe3);
+        console.log('___________________________________');
+        
+        
+        function compareNumbers(a, b) { //funzione utilizzata per confrontare tutti i numeri nella chiamata di sort() {riga 91}
+        return a - b;
+    }
+    
+    let nums = [78,2,0,46,22,39,11,59];
+    let orNum = nums.sort(compareNumbers);
+    // let orNum = nums.sort(); ordina gli elementi dell'array nums considerando solo la prima cifra(sx)
+    console.log(nums);
+    console.log('___________________________________');
+    
+    
+    nums.push(7); // --> [78,2,0,46,22,39,11,59]; --> [78,2,0,46,22,39,11,59,7]; aggiunge un elemento all'array in coda
+    console.log(nums);
+        
+        nums.unshift(7); // --> [7,78,2,0,46,22,39,11,59];
+        console.log(nums); //aggiunge un elemento all'array in testa
+
+        //forEach()
+
+        nums.forEach(function(num) {
+            console.log(num);
+        });
+
+        </script>
+</body>
+</html>
