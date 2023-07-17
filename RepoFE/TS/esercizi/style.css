@@ -1,0 +1,27 @@
+body {
+    background-color: aliceblue;
+}
+.multipleChoise-container {
+    justify-content: center;
+}
+.option label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.question {
+    font-size: medium;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.multipleChoise-container {
+    max-width: 100%;
+    margin: 0, auto;
+    padding: 15px;
+    text-align: center;
+}
+
+#result {
+    padding: 30px;
+}

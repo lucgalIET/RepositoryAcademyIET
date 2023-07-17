@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Esercizio Typescript</title>
+</head>
+<body>
+    <h1>Esercio Typescript</h1>
+    <h2>Risposta multipla</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+            </div>
+            <div class="col-md-12">
+                <div class="multipleChoise-container">
+                    <h3>Multiple Choise</h3>
+                    <div class="question">Qual'e' la capidale d'Italia?</div>
+                    <div class="option">
+                        <label>
+                            <input type="radio" name="answer" value="Cagliari"> Cagliari
+                        </label>
+                        <label>
+                            <input type="radio" name="answer" value="Milano"> Milano
+                        </label>
+                        <label>
+                            <input type="radio" name="answer" value="Roma"> Roma
+                        </label>
+                        <label>
+                            <input type="radio" name="answer" value="Bari"> Bari
+                        </label>
+                    </div>
+                    <button class="btn btn-primary" onclick="multipleChoise()">Verifica la Risposta</button>
+                    <div id="result"></div>
+                </div>
+            </div>
+            <div class="col-md-12"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
